@@ -1,0 +1,56 @@
+[
+  {
+    "name": "2019 Chevrolet Malibu",
+    "price": "22,965",
+    "img": "/img/new-cars/2019 Chevrolet Malibu.jpg",
+    "maxSpeed": "240",
+    "from0100":"4",
+    "horsepower":"325",
+    "model":"Chevrolet"
+  },
+  {
+    "name": "2019 Honda Accord",
+    "price": "24,615",
+    "img": "/img/new-cars/2019 Honda Accord.jpg",
+    "maxSpeed": "240",
+    "from0100":"3",
+    "horsepower":"192",
+    "model":"Honda"
+  },
+  {
+    "name": "2019 Mazda Mazda6",
+    "price": "24,720",
+    "img": "/img/new-cars/2019 Mazda Mazda6.jpg",
+    "maxSpeed": "240",
+    "from0100":"3",
+    "horsepower":"235",
+    "model":"Mazda"
+  },
+  {
+    "name": "2019 Volkswagen Passat",
+    "price": "26,190",
+    "img": "/img/new-cars/2019 Volkswagen Passat.jpg",
+    "maxSpeed": "240",
+    "from0100":"5",
+    "horsepower":"150",
+    "model":"Volkswagen"
+  },
+  {
+    "name": "2019 Toyota Camry",
+    "price": "24,765",
+    "img": "/img/new-cars/2019 Toyota Camry.jpg",
+    "maxSpeed": "240",
+    "from0100":"3.8",
+    "horsepower":"248",
+    "model":"Toyota"
+  },
+  {
+    "name": "2019 Subaru Legacy",
+    "price": "23,430",
+    "img": "/img/new-cars/2019 Subaru Legacy.jpg",
+    "maxSpeed": "240",
+    "from0100":"4.5",
+    "horsepower":"215",
+    "model":"Subaru"
+  }
+]
