@@ -6,7 +6,7 @@ fetch('/json/data.json')
   })
       .then(data => {
             const cars = document.querySelector('.cars');
-
+            
             cars.innerHTML = 
             `
             ${data.map((item)=> {

@@ -1118,6 +1118,85 @@
     background: goldenrod;
     cursor: pointer;
   }
+  .pagination{
+    height: 70px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    color: white;
+    flex-wrap: wrap;
+  }
+  .pagination h3{
+      margin-right: 50px;
+  }
+  .pagination_btns{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+  }
+  .prev_page{
+    background: black;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    opacity: .5;
+    border: none;
+    outline: none;
+  }
+  .prev_page_icon{
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 7px;
+    margin-left: 7px;
+    transform: rotate(135deg);
+  }
+  .prev_page:hover{
+    opacity: 1;
+  }
+  .next_page{
+    background: black;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    opacity: .5;
+    outline: none;
+    border: none;
+}
+.next_page:hover{
+    opacity: 1;
+}
+.next_page_icon{
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 7px;
+    margin-right: 7px;
+    transform: rotate(-45deg);
+  }
+.recomendend_cars{
+    margin: 0 auto;
+    /* width: 1280px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
 @media only screen and (max-width: 1280px) {
     .cars_header{
         width: auto;
