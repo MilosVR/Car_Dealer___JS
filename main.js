@@ -222,7 +222,7 @@ function fetchNewCars() {
       featuredCars.innerHTML= 
       `
       ${data.map(item => {
-            return `<li>${item.name}</li> 
+            return `<li><div>${item.name}</div></li> 
             `
       }).join(' ')
 }
