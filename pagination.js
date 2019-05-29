@@ -39,8 +39,8 @@ function fetchCarsPage(){
             
         recomendend_cars.innerHTML += `
         <div class='cars_item'>
-        ${filterData[i].Identification.Make}
         <div class='cars_item_description'>
+        <p class='cars_name'> ${filterData[i].Identification.Make}</p>
         <p class='cars_price'>${filterData[i].price} $</p>
         </div>
         <img src='${filterData[i].Image}' />
@@ -54,14 +54,26 @@ function fetchCarsPage(){
         </div>
         ` 
         if (page == 1) {
-            prev_page_btn.style.visibility = "hidden";
+            prev_page_btn.disabled = 'true';
+            if (!prev_page_btn.classList.contains('disabledBtn')) {
+                prev_page_btn.classList.add('disabledBtn');   
+            } 
         } else {
-            prev_page_btn.style.visibility = "visible";
+            if (prev_page_btn.classList.contains('disabledBtn')) {
+                prev_page_btn.classList.remove('disabledBtn');   
+            }
+            prev_page_btn.removeAttribute('disabled');
         }
         if (page == Math.ceil(filterData.length / records_per_page)) {
-            next_page_btn.style.visibility = "hidden";
+            if (!next_page_btn.classList.contains('disabledBtn')) {
+                next_page_btn.classList.add('disabledBtn');   
+            } 
+            next_page_btn.disabled = 'true'
         } else {
-            next_page_btn.style.visibility = "visible";
+            if (next_page_btn.classList.contains('disabledBtn')) {
+                next_page_btn.classList.remove('disabledBtn');   
+            } 
+            next_page_btn.removeAttribute('disabled');
         }
 
         }

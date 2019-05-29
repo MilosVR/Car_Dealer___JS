@@ -167,19 +167,6 @@ function nextSlide(){
 window.setInterval(nextSlide, 3000)
 
 // const imageWidth = currentImage.getBoundingClientRect().width;
-
-
-
-
-
-
-
-
-
-
-
-
-
 // function sortCarByRecommend() {
 
 //       fetch('/json/data.json')

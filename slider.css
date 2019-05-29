@@ -1,0 +1,172 @@
+.slider_wraper{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 50px;
+}
+.newCarSlider {
+  width: 1420px;
+  overflow: hidden;
+  margin: 0 auto;
+  height: 500px;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid lightgray;
+}
+.multiple_item_slider {
+  margin-top: 320px;
+  width: 280px;
+  margin-right: 10px;
+  margin-left: 10px;
+  height: 200px;
+  position: relative;
+  text-align: center;
+}
+.slide_description {
+  width: 90%;
+  height: 20%;
+  background: lightgray;
+  border-radius: 3px;
+}
+.mask1 {
+  width: 100%;
+  height: 400px;
+  background: url(/img/road.jpg);
+  position: absolute;
+  top: 0;
+}
+.mask1_description {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -20%);
+  background: rgb(0, 0, 0, 0.3);
+  z-index: 10;
+  width: 500px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid gray;
+  font-size: 34px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: lightgray;
+}
+.mask1_description span {
+  color: crimson;
+}
+.mask {
+  width: 100%;
+  height: 100px;
+  background: gray;
+  position: absolute;
+  bottom: 0;
+}
+.multiple_item_slider ul {
+  padding: 0;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 1s;
+  flex-wrap: wrap;
+}
+.multiple_item_slider ul li {
+  list-style: none;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.multiple_item_slider ul li img {
+  width: 100%;
+  height: 80%;
+  object-fit: contain;
+}
+.multiple_item_slider ul li img:hover {
+  transition: all 1s;
+  transform: scale(1.1);
+}
+.multi_slide_left {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(0, -50%);
+  z-index: 50;
+  background: rgb(0, 0, 0, 0.3);
+  padding: 10px 20px;
+  cursor: pointer;
+  height: 100%;
+  width: 50px;
+  transition: all .5s;
+}
+.multi_slide_left:hover{
+  background: rgb(0, 0, 0, .7);
+  width: 70px;
+  transition: all .5s;
+}
+.multi_slide_left_icon{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: solid red;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 8px;
+  transform: rotate(135deg);
+  opacity: .5;
+}
+.multi_slide_right {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(0, -50%);
+  z-index: 50;
+  background: rgb(0, 0, 0, 0.3);
+  padding: 10px 20px;
+  cursor: pointer;
+  height: 100%;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  transition: all .5s;
+}
+.multi_slide_right:hover{
+  background: rgb(0, 0, 0, .7);
+  width: 70px;
+  transition: all .5s;
+}
+.multi_slide_right div{
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%);
+  border: solid red;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 8px;
+  transform: rotate(-45deg);
+  opacity: .5;
+}
+.slider_description{
+  width: 1420px;
+  margin: 0 auto;
+  text-align: center;
+}
+.slider_description h1{
+  color: crimson;
+}
+.slider_description h3{
+  color: gray;
+  font-size: 20px;
+}

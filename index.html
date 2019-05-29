@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css">
     <link rel="stylesheet" type="text/css" media="screen" href="/Navbar/navbar.css">
-    
+    <link rel="stylesheet" href="/slider.css">
 </head>
 
 <body>
@@ -28,7 +28,7 @@
             <div class="navbar_links">
                 <ul>
                     <li class="changeLinksBackground">Home</li>
-                    <li class="changeLinksBackground">Search</li>
+                    <li class="changeLinksBackground"><a href="/test.html">Search</a></li>
                     <li class="changeLinksBackground">Parts</li>
                     <li class="changeLinksBackground">Contact</li>
                 </ul>
@@ -229,21 +229,80 @@
             
             <div class="cars"></div>
 
-            <div class="pagination">
-                <h3>Models from 2011</h3>
-            </div>
-
-            <div>
-                <div class="pagination_btns">
-                    <button class="prev_page">
-                        <div class="prev_page_icon"></div>
-                    </button>
-                    <button class="next_page">
-                        <div class="next_page_icon"></div>
-                    </button>
+            <div class="slider_wraper">
+                    <div class="newCarSlider" >
+                        <div class="mask1_description">
+                            Our New - <span> 2019 </span> Models
+                        </div>
+                        <div class="mask1"></div>
+                        <div class="mask"></div>
+                        <div class="multiple_item_slider">
+                            <ul>
+                                <li class="current_slide">
+                                    <img src="/img/b1.png" alt="">
+                                    <div class="slide_description">Marcedes SLR</div>
+                                </li>
+                                <li>
+                                    <img src="/img/b2.jpg" alt="">
+                                    <div class="slide_description">Marcedes SLR</div>
+                                </li>
+                                <li>
+                                    <img src="/img/b3.jpg" alt="">
+                                    <div class="slide_description">Marcedes SLR</div>
+                                </li>
+                                <li>
+                                    <img src="/img/b4.jpg" alt="">
+                                    <div class="slide_description">Marcedes SLR</div>
+                                </li>
+                                <li>
+                                    <img src="/img/b5.jpg" alt="">
+                                    <div class="slide_description">Marcedes SLR</div>
+                                </li>
+                                <li>
+                                    <img src="/img/b6.jpg" alt="">
+                                    <div class="slide_description">Marcedes SLR</div>
+                                </li>
+                                <li>
+                                    <img src="/img/b7.jpg" alt="">
+                                    <div class="slide_description">Marcedes SLR</div>
+                                </li>
+                                <li>
+                                    <img src="/img/b8.jpg" alt="">
+                                    <div class="slide_description">Marcedes SLR</div>
+                                </li>
+                            </ul>
+                            
+                        </div>
+                        <div class="multi_slide_right">
+                            <div></div>
+                        </div>
+                        <div class="multi_slide_left">
+                            <div class="multi_slide_left_icon"></div>
+                        </div>
+                    </div>
+                    <div class="slider_description">
+                        <h1>ALM Auto South</h1>
+                        <h3>SERVING UNION CITY, GA</h3>
+                        <p>The team at ALM Kia South would like to welcome you to our dealership in Union City, where we’re confident you’ll find the vehicles you’re looking for at a price you can afford. Come and check out our full selection of NEW KIA VEHICLES, or get a great deal on a reliable PRE-OWNED model. No matter which vehicle you decide on, our professional FINANCE TEAM will help you get settled with a competitive financing or lease plan.</p>
+                        <p>When you’re looking for quality auto maintenance and repairs near Union City, you can always count on the professional technicians in our ALM Kia SERVICE DEPARTMENT as well, where we handle everything from oil changes and filter replacements to powertrain and drivetrain repairs. SCHEDULE AN APPOINTMENT today, or purchase parts from us to handle maintenance and repairs on your own!</p>
+                    </div>
                 </div>
-                <div class="recomendend_cars"></div>
+
+            <!-- <div class="pagination">
+                <h2>Models from <span>2011</span></h2>
             </div>
+            <div class="pagination_wraper">
+                <div class='pagination_shape'></div>
+                    <div class="pagination_btns">
+                        <button class="prev_page" >
+                            <div class="prev_page_icon"></div>
+                        </button>
+                        <button class="next_page" >
+                            <div class="next_page_icon"></div>
+                        </button>
+                    </div>
+                    <div class="recomendend_cars"></div>
+            </div> -->
 
             <div class="choose_dealer_wraper">
                 <div class="choose_dealer">
@@ -390,6 +449,44 @@
                     </form>
                 </div>
                 </div>
+                <div class="footer_body">
+                <div class="inventory">
+                    <h3>Inventory</h3>
+                    <p>New Vehicle</p>
+                    <p>Used Vehicle</p>
+                    <p>Certified Pre_Owned</p>
+                    <p>Priced Under 10k</p>
+                </div>
+                <div class="service">
+                    <h3>Service</h3>
+                    <p>Service</p>
+                    <p>Schedule Service</p>
+                    <p>Parts</p>
+                    <p>Order Parts</p>
+                </div>
+                <div class="specials">
+                    <h3>Specials</h3>
+                    <p>New Vehicle Specials</p>
+                    <p>Pre_owned Vehicle Specials</p>
+                    <p>Service Specials</p>
+                </div>
+                <div class="quick_links">
+                    <h3>Quick Links</h3>
+                    <p>Apply for Financing</p>
+                    <p>Value Your Trade</p>
+                    <p>National Offers</p>
+                </div>
+                <div class="dealership">
+                    <h3>Dealership</h3>
+                    <p>About Us</p>
+                    <p>Customer Testimonials</p>
+                    <p>Contact Us</p>
+                    <p>Carerrs</p>
+                </div>
+            </div>
+            <div class="footer_trademark">
+                © 2019 Auto Dealer Today. All Rights Reserved.
+            </div>
             </div>
 
             <!-- <div class="our_recommendations">
@@ -402,6 +499,7 @@
 
     <script src="main.js"></script>
     <script src="pagination.js"></script>
+    <script src="slider.js"></script>
     <script src='/Navbar/navbar.js'></script>
 </body>
 
